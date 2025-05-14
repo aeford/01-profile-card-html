@@ -1,0 +1,52 @@
+/* Style for the body of the page */
+body {
+  background-color: pink; /* Sets the background color of the page */
+  text-align: center; /* Centers text horizontally */
+  font-family: Arial, sans-serif; /* Sets the font for the entire page */
+}
+
+/* Style for the main heading */
+h1 {
+  font-size: 48px; /* Sets the font size for the main heading */
+  color: blue; /* Sets the text color for the main heading */
+}
+
+/* Style for the subheading */
+h2 {
+  font-size: 32px; /* Sets the font size for the subheading */
+  color: darkblue; /* Sets the text color for the subheading */
+}
+
+/* Style for the paragraph */
+p {
+  font-size: 18px; /* Sets the font size for the paragraph text */
+  line-height: 1.6; /* Sets the line spacing for better readability */
+}
+
+/* Style for the profile card container */
+.profile-card {
+  background-color: white; /* Sets the background color of the card */
+  border: 2px solid lightgray; /* Adds a light gray border around the card */
+  border-radius: 10px; /* Rounds the corners of the card */
+  padding: 20px; /* Adds space inside the card */
+  margin: 20px auto; /* Centers the card and adds vertical spacing */
+  width: 500px; /* Sets the width of the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Style for the image */
+.profile-card img {
+  width: 150px; /* Resizes the image to fit better within the card */
+  height: auto; /* Maintains the aspect ratio */
+  margin-bottom: 10px; /* Adds space below the image */
+}
+
+/* Style for the list */
+.profile-card ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+.profile-card li {
+  margin: 10px 0; /* Adds spacing between list items */
+}
